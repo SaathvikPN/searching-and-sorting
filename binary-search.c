@@ -1,3 +1,4 @@
+  
 #include <stdio.h>
 #include<stdlib.h>
 void search(int n, int data[], int first, int last);
@@ -10,6 +11,7 @@ int main ()
     
     search(n,data,0,4);
     
+    return 0;
 }
 
 void search(int n, int data[], int first, int last)
